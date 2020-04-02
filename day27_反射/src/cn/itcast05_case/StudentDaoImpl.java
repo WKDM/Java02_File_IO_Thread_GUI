@@ -1,0 +1,15 @@
+package cn.itcast05_case;
+
+public class StudentDaoImpl implements StudentDao{
+
+	@Override
+	public void login() {
+		System.out.println("登录功能");		
+	}
+
+	@Override
+	public void register() {
+		System.out.println("注册功能");
+	}
+
+}
